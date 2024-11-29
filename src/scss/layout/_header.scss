@@ -1,3 +1,28 @@
 .header{
-  background-color: $color-bg;
+  width: 100%;
+  /*añadido hoy 25/11 ↓↓*/
+  background-color: black;
+  display: flex;
+  justify-content: space-between;    
+  /*Añadido*/
+  align-items: center;
+  padding: 10px 0px 15px 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.logo-box{
+  width:20%;
+  padding-left: 15px;
+}
+.logo-spotify{
+  width: 100%;
+}
+.menu-header{
+  padding-right: 15px;
+  display: flex;
+  justify-content: end;
+}
+.menu-ham{
+  width: 15%;
 }
