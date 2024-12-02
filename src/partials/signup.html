@@ -33,6 +33,52 @@
                 <input type="text" id="nombre" name="nombre" placeholder="Pon un nombre de perfil."/>
             </div>
             <label>Esto aparece en tu perfil</label>
+            <label>¿Cuál es tu fecha de nacimiento?</label>
+            <div>
+                <label for="dia">Día</label>
+                <input type="number" id="dia" name="dia" placeholder="DD" max="2"> 
+            </div>
+            <div>
+                <label for="mes">Mes</label>
+                <select name="mes" id="mes">
+                    <option value="">Mes</option>
+                    <option value="en">enero</option>
+                    <option value="fe">febrero</option>
+                    <option value="mar">marzo</option>
+                    <option value="ab">abril</option>
+                    <option value="may">mayo</option>
+                    <option value="jun">junio</option>
+                    <option value="jul">julio</option>
+                    <option value="ag">agosto</option>
+                    <option value="se">septiembre</option>
+                    <option value="oc">octubre</option>
+                    <option value="no">noviembre</option>
+                </select>
+            </div>
+            <div>
+                <label for="year">Año</label>
+                <input type="number" id="year" name="year" placeholder="AAAA" max="4"> 
+            </div>
+
+            <label>¿Cuál es tu género?</label>
+            <div>
+                <input type="radio" name="hombre" id="hombre" value="hombre">
+                <label for="hombre">Hombre</label>
+            </div>
+            <div>
+                <input type="radio" name="mujer" id="mujer" value="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+            <div>
+                <input type="radio" name="no-binario" id="no-binario" value="no-binario">
+                <label for="no-binario">No binario</label>
+            </div>
+
+            <div>
+                <input type="checkbox">
+            </div>
+
+
         </form>
     </main>
 </body>
